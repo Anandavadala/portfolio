@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#1a1a2e" />
+  
+  <!-- Website Frame -->
+  <rect x="50" y="50" width="500" height="300" rx="10" fill="#f0f0f0" />
+  
+  <!-- Header -->
+  <rect x="50" y="50" width="500" height="60" rx="10" fill="#00c3ff" />
+  <text x="80" y="85" font-family="Arial" font-size="18" fill="#fff">Ayurvedic Products</text>
+  
+  <!-- Navigation -->
+  <rect x="300" y="65" width="60" height="30" rx="5" fill="#1a1a2e" opacity="0.2" />
+  <rect x="370" y="65" width="60" height="30" rx="5" fill="#1a1a2e" opacity="0.2" />
+  <rect x="440" y="65" width="60" height="30" rx="5" fill="#1a1a2e" opacity="0.2" />
+  
+  <!-- Product Cards -->
+  <rect x="80" y="130" width="120" height="180" rx="5" fill="#fff" stroke="#ddd" stroke-width="2" />
+  <rect x="240" y="130" width="120" height="180" rx="5" fill="#fff" stroke="#ddd" stroke-width="2" />
+  <rect x="400" y="130" width="120" height="180" rx="5" fill="#fff" stroke="#ddd" stroke-width="2" />
+  
+  <!-- Product Images -->
+  <rect x="90" y="140" width="100" height="100" rx="5" fill="#4CAF50" opacity="0.7" />
+  <rect x="250" y="140" width="100" height="100" rx="5" fill="#FF9800" opacity="0.7" />
+  <rect x="410" y="140" width="100" height="100" rx="5" fill="#9C27B0" opacity="0.7" />
+  
+  <!-- Product Titles -->
+  <rect x="90" y="250" width="100" height="10" rx="2" fill="#333" />
+  <rect x="90" y="270" width="80" height="10" rx="2" fill="#666" />
+  <rect x="90" y="290" width="60" height="20" rx="10" fill="#00c3ff" />
+  
+  <rect x="250" y="250" width="100" height="10" rx="2" fill="#333" />
+  <rect x="250" y="270" width="80" height="10" rx="2" fill="#666" />
+  <rect x="250" y="290" width="60" height="20" rx="10" fill="#00c3ff" />
+  
+  <rect x="410" y="250" width="100" height="10" rx="2" fill="#333" />
+  <rect x="410" y="270" width="80" height="10" rx="2" fill="#666" />
+  <rect x="410" y="290" width="60" height="20" rx="10" fill="#00c3ff" />
+  
+  <!-- Leaf Icon for Ayurvedic -->
+  <path d="M120,180 Q150,150 180,180 Q150,210 120,180 Z" fill="#4CAF50" />
+  <path d="M120,180 L150,150" stroke="#fff" stroke-width="2" />
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#1a1a2e" />
+  
+  <!-- App Frame -->
+  <rect x="50" y="50" width="500" height="300" rx="15" fill="#2a2a3e" />
+  
+  <!-- Header -->
+  <rect x="50" y="50" width="500" height="60" rx="15" fill="#00c3ff" />
+  <text x="80" y="85" font-family="Arial" font-size="20" font-weight="bold" fill="#fff">AI Image Generator</text>
+  
+  <!-- Input Area -->
+  <rect x="80" y="130" width="440" height="50" rx="10" fill="#3a3a4e" />
+  <text x="100" y="160" font-family="Arial" font-size="14" fill="#aaa">Enter a description to generate an image...</text>
+  
+  <!-- Generate Button -->
+  <rect x="420" y="190" width="100" height="40" rx="20" fill="#00c3ff" />
+  <text x="440" y="215" font-family="Arial" font-size="14" font-weight="bold" fill="#fff">Generate</text>
+  
+  <!-- Generated Image Area -->
+  <rect x="80" y="190" width="320" height="140" rx="10" fill="#3a3a4e" />
+  
+  <!-- AI Generated Image (Abstract Representation) -->
+  <defs>
+    <linearGradient id="imageGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF9800;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#9C27B0;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#00c3ff;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <rect x="90" y="200" width="300" height="120" rx="5" fill="url(#imageGradient)" />
+  
+  <!-- Abstract Shapes in the Generated Image -->
+  <circle cx="150" cy="240" r="30" fill="#fff" opacity="0.2" />
+  <rect x="200" y="220" width="60" height="60" rx="10" fill="#fff" opacity="0.1" />
+  <path d="M300,220 L330,260 L270,260 Z" fill="#fff" opacity="0.15" />
+  
+  <!-- Neural Network Icon -->
+  <circle cx="500" cy="85" r="15" fill="#fff" opacity="0.2" />
+  <circle cx="470" cy="85" r="8" fill="#fff" opacity="0.2" />
+  <circle cx="530" cy="85" r="8" fill="#fff" opacity="0.2" />
+  <line x1="470" y1="85" x2="500" y2="85" stroke="#fff" stroke-width="2" opacity="0.2" />
+  <line x1="500" y1="85" x2="530" y2="85" stroke="#fff" stroke-width="2" opacity="0.2" />
+</svg>
