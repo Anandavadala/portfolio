@@ -147,26 +147,7 @@ const Projects = () => {
                       }}
                     >
                       <div className="d-flex gap-3">
-                        <motion.a 
-                          href={project.github} 
-                          target="_blank" 
-                          rel="noopener noreferrer"
-                          className="btn btn-sm btn-outline-light rounded-circle p-2"
-                          whileHover={{ scale: 1.1 }}
-                          whileTap={{ scale: 0.9 }}
-                        >
-                          <FontAwesomeIcon icon={faGithub} />
-                        </motion.a>
-                        <motion.a 
-                          href={project.live} 
-                          target="_blank" 
-                          rel="noopener noreferrer"
-                          className="btn btn-sm btn-outline-light rounded-circle p-2"
-                          whileHover={{ scale: 1.1 }}
-                          whileTap={{ scale: 0.9 }}
-                        >
-                          <FontAwesomeIcon icon={faExternalLinkAlt} />
-                        </motion.a>
+                          {/* Removed GitHub and Open Project buttons as requested */}
                       </div>
                     </motion.div>
                   </div>

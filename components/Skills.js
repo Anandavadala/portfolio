@@ -89,14 +89,15 @@ const Skills = () => {
   ];
 
   const technicalSkills = [
-    { name: "C/C++", level: 95 },
-    { name: "Python", level: 90 },
-    { name: "JavaScript", level: 88 },
-    { name: "HTML/CSS", level: 92 },
-    { name: "React.js", level: 85 },
-    { name: "Node.js", level: 80 },
-    { name: "Java Server Pages (JSP)", level: 75 },
-    { name: "SQL", level: 85 }
+  { name: "C/C++", level: 100 },
+  { name: "Python", level: 100 },
+  { name: "JavaScript", level: 100 },
+  { name: "HTML/CSS", level: 100 },
+  { name: "React.js", level: 100 },
+  { name: "Node.js", level: 100 },
+  { name: "Java Server Pages (JSP)", level: 100 },
+  { name: "SQL", level: 100 },
+  { name: "Java", level: 100 }
   ];
 
   const frameworks = [

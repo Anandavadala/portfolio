@@ -149,6 +149,7 @@ const Hero = () => {
               >
                 Download Resume
               </motion.a>
+                {/* Removed Download Other Resume button as requested */}
             </motion.div>
             
             <motion.div 
